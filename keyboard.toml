@@ -40,6 +40,10 @@ keys = """
        LCtrl LGui LAlt Space RAlt RGui RCtrl Left Down Right Kp0 KpDot
        """
 
+[light]
+capslock = { pin = "PIN_28", low_active = true }
+numslock = { pin = "PIN_29", low_active = true }
+
 [storage]
 #clear_storage = true
 clear_layout = true
