@@ -32,7 +32,7 @@ matrix_map = """
 [[layer]]
 name = "base_layer"
 keys = """
-       Escape F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Insert Delete End PageUp PageDown
+       Escape F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Insert Delete Home End PageUp PageDown
        Grave Kc1 Kc2 Kc3 Kc4 Kc5 Kc6 Kc7 Kc8 Kc9 Kc0 Minus Equal Backspace NumLock KpSlash KpAsterisk KpMinus
        Tab Q W E R T Y U I O P LeftBracket RightBracket Backslash Kp7 Kp8 Kp9 KpPlus
        CapsLock A S D F G H J K L Semicolon Quote Enter Kp4 Kp5 Kp6
@@ -44,6 +44,6 @@ keys = """
 capslock = { pin = "PIN_28", low_active = false }
 numslock = { pin = "PIN_29", low_active = false }
 
-#[storage]
+[storage]
 #clear_storage = true
-#clear_layout = false
+clear_layout = true
