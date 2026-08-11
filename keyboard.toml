@@ -45,5 +45,4 @@ capslock = { pin = "PIN_28", low_active = false }
 numslock = { pin = "PIN_29", low_active = false }
 
 [storage]
-#clear_storage = true
-clear_layout = true
+clear_storage = true
