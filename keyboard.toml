@@ -14,7 +14,7 @@ unlock_keys = [[0, 0], [0, 1]]
 [matrix]
 matrix_type = "normal"
 row_pins = ["PIN_19", "PIN_20", "PIN_21", "PIN_22", "PIN_26", "PIN_27"]
-col_pins = ["PIN_18", "PIN_17", "PIN_16", "PIN_15", "PIN_14", "PIN_13", "PIN_12", "PIN_11", "PIN_10", "PIN_9", "PIN_8", "PIN_7", "PIN_6", "PIN_5", "PIN_4", "PIN_3", "PIN_2", "PIN_1", "PIN_0"]
+col_pins = ["PIN_15", "PIN_14", "PIN_13", "PIN_12", "PIN_11", "PIN_10", "PIN_9", "PIN_8", "PIN_7", "PIN_6", "PIN_5", "PIN_4", "PIN_3", "PIN_2", "PIN_1", "PIN_0", "PIN_16", "PIN_17", "PIN_18"]
 
 [layout]
 rows = 6
